@@ -26,15 +26,31 @@
              * what causes the input of the form to update the browser window once the user clicks "Go!" */
 
     </script>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <form id="searchForm">
+    <div class="search">
+        <form id="searchForm">
 
-        <!--Create your form here!-->
+            <input type="text" name="q">
 
+            
+            <input type="radio" name="engine" value="google"/>
+            <label>Google</label>
+            
+            <input type="radio" name="engine" value="duckduckgo"/>
+            <label>DuckDuckGo</label>
+            
+            <input type="radio" name="engine" value="bing"/>
+            <label>Bing</label>
+            
+            <input type="radio" name="engine" value="ask"/>
+            <label>Ask</label>
+            
 
+            <button id="button">Go!</button>
 
-
-    </form>
+        </form>
+    </div>
 </body>
 
